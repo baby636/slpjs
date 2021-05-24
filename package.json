@@ -69,7 +69,7 @@
     "bignumber.js": "9.0.0",
     "crypto-js": "^4.0.0",
     "grpc-bchrpc": "^0.0.10",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "slp-mdm": "0.0.6"
   }
 }
