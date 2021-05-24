@@ -49,7 +49,7 @@
     "slp-unit-test-data": "git+https://github.com/simpleledger/slp-unit-test-data.git#8c942eacfae12686dcf1f3366321445a4fba73e7",
     "source-map-support": "^0.5.19",
     "ts-node": "^7.0.1",
-    "typescript": "^3.9.5",
+    "typescript": "^4.2.4",
     "typescript-tslint-plugin": "^0.5.5",
     "uglify-es": "^3.3.9"
   },
