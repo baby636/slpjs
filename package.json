@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@types/crypto-js": "^3.1.47",
-    "@types/lodash": "^4.14.156",
+    "@types/lodash": "^4.14.168",
     "@types/randombytes": "^2.0.0",
     "@types/socket.io": "^2.1.8",
     "@types/socket.io-client": "^1.4.33",
