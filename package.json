@@ -12,7 +12,9 @@
   "scripts": {
     "test": "mocha",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "build": "npx tsc && mkdirp dist && browserify index.js --standalone slpjs > dist/slpjs.js && uglifyjs dist/slpjs.js > dist/slpjs.min.js"
+    "build": "npx tsc && mkdirp dist && browserify index.js --standalone slpjs > dist/slpjs.js && uglifyjs dist/slpjs.js > dist/slpjs.min.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -69,7 +71,9 @@
     "bignumber.js": "9.0.0",
     "crypto-js": "^4.0.0",
     "grpc-bchrpc": "^0.0.10",
-    "lodash": "^4.17.15",
-    "slp-mdm": "0.0.6"
-  }
+    "lodash": "^4.17.20",
+    "slp-mdm": "0.0.6",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
