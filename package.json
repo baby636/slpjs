@@ -40,7 +40,7 @@
     "@types/node": "^10.17.26",
     "bitbox-sdk": "^8.11.2",
     "bitcoin-rpc-promise": "^2.1.6",
-    "bitcore-lib-cash": "^9.0.0",
+    "bitcore-lib-cash": "^10.0.0",
     "browserify": "^16.5.1",
     "grpc-bchrpc-node": "^0.11.5",
     "mkdirp": "^0.5.5",
